@@ -1,0 +1,45 @@
+EXAMEN IA ENAHO–ESCALE 2025 | PRACTICA 11 CLASIFICACION
+OBJETIVO TECNICO: respuesta codigo 2 de EDU_P314A vs codigo 1.
+El significado semantico de 1/2 requiere verificar el cuestionario entregado.
+Dataset maestro: 24,195 filas
+Distribucion original de EDU_P314A: {'1': 17177, '2': 6441, 'SIN_DATO': 577}
+Registros con respuesta valida (1/2): 23,618
+Clase 0 (codigo 1): 17,177
+Clase 1 (codigo 2): 6,441
+Predictores: ['EDAD', 'SUM_INGHOG2D', 'SUM_GASHOG2D', 'MIN_RATIO_ALUMNOS_DOCENTE', 'MIN_PROP_PUBLICOS', 'P207', 'SUM_POBREZA', 'VIV_P1121', 'VIV_P1144']
+Excluidos como predictores: EDU_*, clusters, codigos de persona, UBIGEO, factores muestrales.
+Entrenamiento: 17,690 | Prueba: 5,928
+Conglomerados train: 3786 | test: 1263 | interseccion: 0
+Clase codigo 2 en train: 27.275% | test: 27.260%
+
+VALIDACION CRUZADA AGRUPADA (solo train, 3 folds)
+Calculando CV: Regresion_Logistica_BASE ...
+  ROC-AUC=0.8254 | PR-AUC(AP)=0.6563 | F1-macro=0.7136 | BalancedAcc=0.7499
+Calculando CV: Random_Forest ...
+  ROC-AUC=0.8211 | PR-AUC(AP)=0.6513 | F1-macro=0.7260 | BalancedAcc=0.7428
+Calculando CV: Hist_Gradient_Boosting ...
+  ROC-AUC=0.8251 | PR-AUC(AP)=0.6593 | F1-macro=0.7105 | BalancedAcc=0.6934
+Calculando CV: MLP_Red_Neuronal ...
+  ROC-AUC=0.8204 | PR-AUC(AP)=0.6578 | F1-macro=0.7033 | BalancedAcc=0.6843
+
+Seleccion por PR-AUC promedio en CV train: Hist_Gradient_Boosting
+
+TEST FINAL (evaluacion unica del mejor modelo):
+  modelo: Hist_Gradient_Boosting
+  roc_auc: 0.8372
+  pr_auc_ap: 0.6780
+  f1_macro: 0.7185
+  accuracy: 0.7999
+  balanced_accuracy: 0.7002
+  precision_clase2: 0.6913
+  recall_clase2: 0.4808
+Confusion (filas reales [cod.1,cod.2] vs pred [cod.1,cod.2]): [[3965, 347], [839, 777]]
+
+ARCHIVOS CREADOS:
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clasificacion\comparacion_modelos_cv_2025.csv
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clasificacion\metricas_test_2025.csv
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clasificacion\predicciones_test_sin_identificadores.csv
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\models\clasificador_2025.joblib
+  Graficas: outputs/figures/clasificacion_*.png
+PRECAUCION: no usar estas metricas como evidencia de representatividad nacional.
+PRECAUCION: verificar etiquetas de la encuesta antes de interpretar la clase 2.

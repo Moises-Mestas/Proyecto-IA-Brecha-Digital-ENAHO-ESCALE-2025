@@ -1,0 +1,27 @@
+ENAHO–ESCALE 2025 | PASO 18 | XGBOOST Y BALANCEO EN CV DE TRAIN
+Objetivo: A | positivo: P314A=2 (NO USO de internet el mes anterior).
+A = todas las respuestas validas (objetivo previo). B = solo matriculados (experimento nuevo).
+Cohorte objetivo: 23,618 | TRAIN: 17,690 | TEST INTACTO: 5,928
+Conglomerados TRAIN: 3,786 | TEST: 1,263 | interseccion: 0
+Positivos en TRAIN: 4,825 (27.28%).
+GroupKFold: 3 folds. Misma semilla (42) y preprocesamiento del Paso 11.
+Imputacion, escalado y One-Hot se ajustan SOLO sobre entrenamiento de cada fold.
+Los pesos de clase (si se usan) se calculan SOLO con y del entrenamiento de cada fold.
+SUM_FACTOR07 NO se usa: aun no se ha confirmado su idoneidad para esta subpoblacion.
+NO se entrena ni se evalua sobre el conjunto TEST. NO se sobrescriben modelos ni SHAP.
+
+--- Resultados medios de CV SOLO en TRAIN ---
+XGBoost_sin_pesos: AP=0.664903 (+/- 0.006503); ROC-AUC=0.8278; F1-macro=0.7146; Recall clase2=0.4806; Precision clase2=0.6775
+XGBoost_con_pesos_clase: AP=0.664704 (+/- 0.006763); ROC-AUC=0.8276; F1-macro=0.7180; Recall clase2=0.7542; Precision clase2=0.5299
+HistGB_con_pesos_clase: AP=0.661074 (+/- 0.008024); ROC-AUC=0.8257; F1-macro=0.7156; Recall clase2=0.7485; Precision clase2=0.5275
+HistGB_original_sin_pesos: AP=0.659338 (+/- 0.007102); ROC-AUC=0.8251; F1-macro=0.7105; Recall clase2=0.4720; Precision clase2=0.6746
+
+Mejor AP en esta comparacion CV: XGBoost_sin_pesos (AP=0.664903).
+IMPORTANTE: un AP mejor en CV NO demuestra mejor rendimiento en TEST.
+No seleccionar ni sustituir el modelo final solo porque este experimento obtuvo un AP mayor.
+La variacion entre folds y la precision-recall deben considerarse antes de concluir.
+Objetivo B NO es identico al del Paso 11; sus resultados NO se comparan directamente con el TEST A.
+
+Archivo por fold: outputs\auditoria_clasificacion\paso18_resultados_por_fold_objetivo_A.csv
+Archivo resumen: outputs\auditoria_clasificacion\paso18_comparacion_cv_objetivo_A.csv
+No se cambian archivos de pasos 05-17 ni modelos o graficas anteriores.

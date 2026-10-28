@@ -1,0 +1,2 @@
+﻿modelo,cohorte,n_train,n_test,ap,roc_auc,f1_macro,balanced_accuracy,accuracy,recall_no_uso,precision_no_uso
+XGBoost_optimizado_sin_pesos,MATRICULADOS_Y_ASISTENTES,13557,4435,0.642148502682997,0.8365948666270115,0.7016623917472142,0.6812671688057099,0.8072153325817362,0.43530499075785584,0.6587412587412588

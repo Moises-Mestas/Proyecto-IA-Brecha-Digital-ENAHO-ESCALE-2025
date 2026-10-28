@@ -1,0 +1,26 @@
+EDA SOBRE ARCHIVOS CRUDOS RAW — ENAHO / ESCALE 2025
+SOLO LECTURA. NO se usa el dataset procesado, no se imputa, no se entrena.
+Panel entregado 2021–2025: se estudia AÑO_25=2025 sin modificar los ZIP originales.
+100: columnas solicitadas ausentes en RAW: []
+ENAHO 100: RAW panel=185,312; AÑO_25=2025=44,599; columnas=1689
+200: columnas solicitadas ausentes en RAW: []
+ENAHO 200: RAW panel=466,602; AÑO_25=2025=115,145; columnas=254
+300: columnas solicitadas ausentes en RAW: []
+ENAHO 300: RAW panel=427,180; AÑO_25=2025=106,958; columnas=2613
+SUMARIA: columnas solicitadas ausentes en RAW: []
+ENAHO SUMARIA: RAW panel=133,520; AÑO_25=2025=33,702; columnas=868
+MINEDU Padron: RAW=112,724 filas; columnas=59
+MINEDU Padlocal: RAW=69,642 filas; columnas=19
+
+Archivos EDA creados:
+  outputs\eda_raw_2025\eda_estadisticas_numericas_raw_2025.csv
+  outputs\eda_raw_2025\eda_faltantes_raw_2025.csv
+  outputs\eda_raw_2025\eda_frecuencias_raw_2025.csv
+  outputs\eda_raw_2025\eda_resumen_fuentes_2025.csv
+  outputs/figures/eda_raw_edades_6_17_2025.png
+  outputs/figures/eda_raw_p306_2025.png
+  outputs/figures/eda_raw_p314a_2025.png
+  outputs/figures/eda_raw_ingreso_gasto_2025.png
+  outputs/figures/eda_raw_minedu_gestion_2025.png
+Advertencia: los valores de P307 y otros códigos no deben interpretarse sin cuestionario.
+Un valor faltante por salto de encuesta no necesariamente es un error.

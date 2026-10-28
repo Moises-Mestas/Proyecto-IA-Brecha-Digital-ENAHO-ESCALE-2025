@@ -1,0 +1,59 @@
+FASE 1 - AUDITORIA DEL DATASET MAESTRO ENAHO–ESCALE 2025
+Datos del examen proporcionados por el docente. SIN entrenamiento ni imputacion.
+Filas: 24,195 | Columnas: 75
+Ruta: D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\data\processed\dataset_enaho_escale_2025.csv
+
+--- Validacion de identificadores ---
+Llaves incompletas: 0
+Llaves persona duplicadas: 0
+Años distintos: {'2025': 24195}
+UBIGEO de 6 digitos: 24,195/24,195
+Edades validas de 6 a 17: 24,195/24,195
+Edades faltantes/no numericas: 0
+
+--- Coincidencias de modulos ---
+UNION_300: {'both': 23668, 'left_only': 527}
+UNION_100: {'both': 24195}
+UNION_SUMARIA: {'both': 24195}
+
+--- Integridad de indicadores MINEDU ---
+  MIN_PROP_PUBLICOS: 24,195/24,195 numericos; fuera del rango [0,1]: 0
+  MIN_PROP_PRIVADOS: 24,195/24,195 numericos; fuera del rango [0,1]: 0
+Proporciones publica+privada distintas de 1: 0 de 24,195
+Ratio alumnos/docente disponible: 24,195/24,195
+Ratios negativos: 0
+Ratio minimo/mediana/maximo: 2.83 / 15.97 / 26.17
+Recuentos publica+privada distintos del total conocido: 0
+
+--- Cobertura de variables prioritarias ---
+  EDAD: 24,195/24,195 (100.0%)
+  P207: 24,195/24,195 (100.0%)
+  EDU_P300A: 23,618/24,195 (97.6%)
+  EDU_P306: 23,618/24,195 (97.6%)
+  EDU_P307: 20,278/24,195 (83.8%)
+  EDU_P308A: 20,278/24,195 (83.8%)
+  EDU_P308B: 20,275/24,195 (83.8%)
+  EDU_P314A: 23,618/24,195 (97.6%)
+  EDU_P314B_1: 17,177/24,195 (71.0%)
+  EDU_P316_1: 17,177/24,195 (71.0%)
+  VIV_P1121: 24,195/24,195 (100.0%)
+  VIV_P1144: 24,195/24,195 (100.0%)
+  SUM_POBREZA: 24,195/24,195 (100.0%)
+  SUM_INGHOG2D: 24,195/24,195 (100.0%)
+  SUM_GASHOG2D: 24,195/24,195 (100.0%)
+  MIN_RATIO_ALUMNOS_DOCENTE: 24,195/24,195 (100.0%)
+  MIN_PROP_PUBLICOS: 24,195/24,195 (100.0%)
+
+--- Valores observados en variables categóricas (SIN interpretar codigos) ---
+P207: {'1': 12321, '2': 11874}
+EDU_P300A: {'4': 21535, '1': 1281, '(vacio)': 577, '11': 196, '3': 182, '10': 129, '8': 61, '12': 57, '2': 54, '6': 39, '14': 27, '13': 24}
+EDU_P306: {'1': 20278, '2': 3340, '(vacio)': 577}
+EDU_P307: {'1': 17992, '(vacio)': 3917, '2': 2286}
+EDU_P308A: {'2': 10108, '3': 9382, '(vacio)': 3917, '1': 391, '5': 233, '4': 144, '7': 20}
+EDU_P308B: {'0': 10112, '(vacio)': 3920, '1': 2397, '3': 2234, '2': 2024, '4': 1866, '5': 1642}
+EDU_P314A: {'1': 17177, '2': 6441, '(vacio)': 577}
+EDU_P314B_1: {'0': 13079, '(vacio)': 7018, '1': 4098}
+EDU_P316_1: {'1': 13378, '(vacio)': 7018, '2': 3799}
+VIV_P1121: {'1': 22333, '0': 1862}
+VIV_P1144: {'1': 23008, '0': 1187}
+SUM_POBREZA: {'3': 16936, '2': 5753, '1': 1506}

@@ -1,0 +1,68 @@
+
+========== 100 Vivienda ==========
+Leyendo todas las filas sin extraer el ZIP...
+Total de filas del CSV: 185,312
+Distribucion COMPLETA de AÑO_25: {'(vacio)': 140713, '2025': 44599}
+Filas con AÑO_25 = 2025: 44,599
+Primera fila de datos 2025: 4972
+Ultima fila de datos 2025: 185137
+  CONGLOME_25: 44,599/44,599 no vacios (100.0%)
+  VIVIENDA_25: 44,599/44,599 no vacios (100.0%)
+  HOGAR_25: 44,599/44,599 no vacios (100.0%)
+  UBIGEO_25: 44,599/44,599 no vacios (100.0%)
+  ESTRATO_25: 44,599/44,599 no vacios (100.0%)
+  P1121_25: 33,702/44,599 no vacios (75.6%)
+  P1144_25: 33,702/44,599 no vacios (75.6%)
+
+========== 200 Personas ==========
+Leyendo todas las filas sin extraer el ZIP...
+Total de filas del CSV: 466,602
+Distribucion COMPLETA de AÑO_25: {'(vacio)': 351457, '2025': 115145}
+Filas con AÑO_25 = 2025: 115,145
+Primera fila de datos 2025: 39005
+Ultima fila de datos 2025: 466602
+  CONGLOME_25: 115,145/115,145 no vacios (100.0%)
+  VIVIENDA_25: 115,145/115,145 no vacios (100.0%)
+  HOGAR_25: 115,145/115,145 no vacios (100.0%)
+  CODPERSO_25: 115,145/115,145 no vacios (100.0%)
+  P207_25: 110,672/115,145 no vacios (96.1%)
+  P208A_25: 110,672/115,145 no vacios (96.1%)
+Personas de 6 a 17 anos (entre filas 2025): 24,195
+Edades no interpretables: 0
+
+========== 300 Educacion ==========
+Leyendo todas las filas sin extraer el ZIP...
+Total de filas del CSV: 427,180
+Distribucion COMPLETA de AÑO_25: {'(vacio)': 320222, '2025': 106958}
+Filas con AÑO_25 = 2025: 106,958
+Primera fila de datos 2025: 15104
+Ultima fila de datos 2025: 427180
+  CONGLOME_25: 106,958/106,958 no vacios (100.0%)
+  VIVIENDA_25: 106,958/106,958 no vacios (100.0%)
+  HOGAR_25: 106,958/106,958 no vacios (100.0%)
+  CODPERSO_25: 106,958/106,958 no vacios (100.0%)
+  P208A_25: 104,533/106,958 no vacios (97.7%)
+  P300A_25: 104,335/106,958 no vacios (97.5%)
+  P306_25: 104,335/106,958 no vacios (97.5%)
+  P307_25: 29,438/106,958 no vacios (27.5%)
+  P308A_25: 29,438/106,958 no vacios (27.5%)
+  P308B_25: 29,435/106,958 no vacios (27.5%)
+  P314A_25: 99,919/106,958 no vacios (93.4%)
+Personas de 6 a 17 anos (entre filas 2025): 23,668
+Edades no interpretables: 0
+
+========== SUMARIA Hogar ==========
+Leyendo todas las filas sin extraer el ZIP...
+Total de filas del CSV: 133,520
+Distribucion COMPLETA de AÑO_25: {'(vacio)': 99818, '2025': 33702}
+Filas con AÑO_25 = 2025: 33,702
+Primera fila de datos 2025: 9686
+Ultima fila de datos 2025: 133520
+  CONGLOME_25: 33,702/33,702 no vacios (100.0%)
+  VIVIENDA_25: 33,702/33,702 no vacios (100.0%)
+  HOGAR_25: 33,702/33,702 no vacios (100.0%)
+  UBIGEO_25: 33,702/33,702 no vacios (100.0%)
+  POBREZA_25: 33,702/33,702 no vacios (100.0%)
+  INGHOG2D_25: 33,702/33,702 no vacios (100.0%)
+  GASHOG2D_25: 33,702/33,702 no vacios (100.0%)
+  FACTOR07_25: 33,702/33,702 no vacios (100.0%)

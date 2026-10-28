@@ -1,0 +1,54 @@
+FASE 1 - INTEGRACIÓN RELACIONAL ENAHO 2025
+Fuente: cuatro módulos limpios de los paneles entregados por el docente.
+Regla: conservar las llaves como texto; no imputar ni alterar códigos.
+Uniones: LEFT, con validación de cardinalidad y auditoría de coincidencias.
+
+--- Lectura y control de duplicados ---
+Módulo 200: 115,145 filas | 11 columnas | duplicados: 0
+Módulo 300: 106,958 filas | 34 columnas | duplicados: 0
+Módulo 100: 44,599 filas | 10 columnas | duplicados: 0
+Módulo SUMARIA: 33,702 filas | 11 columnas | duplicados: 0
+FACTOR07 de ENAHO 200 se omitió por estar totalmente vacío.
+Se conserva FACPOB07; SUM_FACTOR07 se incorporará desde Sumaria.
+
+--- Primera unión: persona con educación ---
+Unión 300: 106,958/115,145 con coincidencia (92.9 %) | sin coincidencia: 8,187
+Personas con edad 6-17 según módulo 200: 24,195
+
+--- Agregando contexto de hogar ---
+Unión 100: 24,195/24,195 con coincidencia (100.0 %) | sin coincidencia: 0
+Unión SUMARIA: 24,195/24,195 con coincidencia (100.0 %) | sin coincidencia: 0
+
+--- Controles finales ---
+Total de estudiantes conservados: 24,195
+Filas duplicadas por llave de persona: 0
+Diferencias en edad módulo 200 vs 300: 0 de 23,668 comparables
+
+--- Verificación de códigos geográficos ---
+UBIGEO del módulo 200 con formato de 6 dígitos: 24,195/24,195
+Diferencias UBIGEO 200 vs EDU: 0 de 23,668 pares comparables
+Diferencias UBIGEO 200 vs VIV: 0 de 24,195 pares comparables
+Diferencias UBIGEO 200 vs SUM: 0 de 24,195 pares comparables
+
+--- Cobertura en estudiantes de 6 a 17 años ---
+P207: 24,195/24,195 (100.0 %)
+P208A: 24,195/24,195 (100.0 %)
+EDU_P300A: 23,618/24,195 (97.6 %)
+EDU_P306: 23,618/24,195 (97.6 %)
+EDU_P307: 20,278/24,195 (83.8 %)
+EDU_P308A: 20,278/24,195 (83.8 %)
+EDU_P308B: 20,275/24,195 (83.8 %)
+EDU_P314A: 23,618/24,195 (97.6 %)
+VIV_P1121: 24,195/24,195 (100.0 %)
+VIV_P1144: 24,195/24,195 (100.0 %)
+SUM_POBREZA: 24,195/24,195 (100.0 %)
+SUM_INGHOG2D: 24,195/24,195 (100.0 %)
+SUM_GASHOG2D: 24,195/24,195 (100.0 %)
+FACPOB07: 24,195/24,195 (100.0 %)
+SUM_FACTOR07: 24,195/24,195 (100.0 %)
+
+--- Resultado ---
+CSV integrado de ENAHO: D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\data\interim\enaho_estudiantes_2025_integrado.csv
+Filas: 24,195; columnas: 56
+Este NO es el dataset final del examen: falta agregar MINEDU por UBIGEO.
+No se imputaron valores, no se entrenaron modelos y no se usaron datos de prueba.

@@ -1,0 +1,76 @@
+﻿variable,origen,tipo_lectura,filas,no_vacios,porcentaje_no_vacio,valores_distintos_no_vacios
+AÑO,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,1
+CONGLOME,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,5063
+VIVIENDA,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,428
+HOGAR,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,14
+CODPERSO,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,14
+UBIGEO,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,1241
+P203,ENAHO 200 / otras variables,texto (sin recodificar),24195,24195,100.0,9
+P207,ENAHO 200 / otras variables,texto (sin recodificar),24195,24195,100.0,2
+P208A,ENAHO 200 / otras variables,texto (sin recodificar),24195,24195,100.0,12
+FACPOB07,ENAHO 200 / otras variables,texto (sin recodificar),24195,24195,100.0,954
+EDU_UBIGEO,ENAHO 300 - Educación,texto (sin recodificar),24195,23668,97.82,1240
+EDU_P208A,ENAHO 300 - Educación,texto (sin recodificar),24195,23668,97.82,12
+EDU_P300A,ENAHO 300 - Educación,texto (sin recodificar),24195,23618,97.62,13
+EDU_P306,ENAHO 300 - Educación,texto (sin recodificar),24195,23618,97.62,2
+EDU_P307,ENAHO 300 - Educación,texto (sin recodificar),24195,20278,83.81,2
+EDU_P308A,ENAHO 300 - Educación,texto (sin recodificar),24195,20278,83.81,6
+EDU_P308B,ENAHO 300 - Educación,texto (sin recodificar),24195,20275,83.8,6
+EDU_P314A,ENAHO 300 - Educación,texto (sin recodificar),24195,23618,97.62,2
+EDU_P314B_1,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_2,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_3,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_4,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_5,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_6,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P314B_7,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_1,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_2,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_3,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_4,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_5,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_6,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_7,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_8,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_9,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_10,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_P316_11,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,1
+EDU_P316_12,ENAHO 300 - Educación,texto (sin recodificar),24195,17177,70.99,2
+EDU_FACTORA07,ENAHO 300 - Educación,texto (sin recodificar),24195,23645,97.73,4524
+EDU_FACTOR07,ENAHO 300 - Educación,texto (sin recodificar),24195,23645,97.73,954
+UNION_300,Control de integración,texto (sin recodificar),24195,24195,100.0,2
+EDAD,Identificador / persona ENAHO 200,texto (sin recodificar),24195,24195,100.0,12
+VIV_UBIGEO,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,1241
+VIV_DOMINIO,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,8
+VIV_ESTRATO,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,8
+VIV_P1121,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,2
+VIV_P1144,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,2
+VIV_FACTOR07,ENAHO 100 - Vivienda,texto (sin recodificar),24195,24195,100.0,954
+UNION_100,Control de integración,texto (sin recodificar),24195,24195,100.0,1
+SUM_UBIGEO,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,1241
+SUM_TOTMIEHO,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,15
+SUM_MIEPERHO,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,15
+SUM_POBREZA,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,3
+SUM_INGHOG2D,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,15080
+SUM_GASHOG2D,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,15077
+SUM_FACTOR07,ENAHO Sumaria - Hogar,texto (sin recodificar),24195,24195,100.0,954
+UNION_SUMARIA,Control de integración,texto (sin recodificar),24195,24195,100.0,1
+MIN_REGISTROS_PADRON,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,257
+MIN_SERVICIOS_EDUCATIVOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,257
+MIN_ALUMNOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,1122
+MIN_ALUMNOS_VALIDOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,257
+MIN_DOCENTES,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,598
+MIN_DOCENTES_VALIDOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,257
+MIN_COLEGIOS_PUBLICOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,216
+MIN_GESTION_CONOCIDA,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,257
+MIN_COLEGIOS_PRIVADOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,133
+MIN_RATIO_ALUMNOS_DOCENTE,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,1221
+MIN_PROP_PUBLICOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,415
+MIN_PROP_PRIVADOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,415
+MIN_SERVICIOS_URBANOS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,185
+MIN_SERVICIOS_RURALES,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,179
+MIN_SERVICIOS_AREA_DESCONOCIDA,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,1
+MIN_LAT_MEDIA,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,1241
+MIN_LON_MEDIA,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,1241
+MIN_LOCALES_CON_COORDENADAS,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,189
+MIN_LOCALES_PADLOCAL,MINEDU - Indicador distrital,texto (sin recodificar),24195,24195,100.0,189

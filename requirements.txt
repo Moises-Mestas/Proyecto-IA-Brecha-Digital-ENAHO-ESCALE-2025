@@ -1,0 +1,16 @@
+# Proyecto ENAHO–ESCALE 2025 | Recomendado: Python 3.12
+# Dependencias de los scripts 05–24. Rangos de compatibilidad; no son un
+# registro exacto de las versiones instaladas en el equipo del estudiante.
+# Para conservar versiones exactas, generar un lock local verificado.
+
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+matplotlib>=3.8
+dbfread>=2.0.7
+xgboost>=2.0
+shap>=0.45
+joblib>=1.3
+scipy>=1.11
+reportlab>=4.0
+pypdf>=5.0

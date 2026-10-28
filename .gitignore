@@ -1,0 +1,37 @@
+# Entorno y archivos temporales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Microdatos ENAHO/MINEDU: no publicarlos en GitHub
+# (se mantienen localmente para reproducir el examen)
+data/raw/
+data/interim/
+data/processed/
+
+# Resultados que pueden incluir datos a nivel de estudiante o dependencias binarias
+outputs/models/
+*.joblib
+outputs/clasificacion/predicciones_test_sin_identificadores.csv
+outputs/cierre_2025/cierre19_predicciones_test_sin_ids.csv
+outputs/indice_brecha_2025/cierre20_test_sin_ids.csv
+**/*predicciones_test*.csv
+**/*test_sin_ids.csv
+
+# Copias de seguridad, ZIP y entregables empaquetados de uso local
+archive_local/
+backup_local/
+*.zip
+
+# Documentos personales/temporales fuera de reports/ cuando existan
+~$*
+*.tmp

@@ -1,0 +1,69 @@
+EXAMEN IA ENAHO-ESCALE 2025 | PASO 10
+Profundizacion de perfiles y revision de posibles objetivos de clasificacion
+Estudiantes: 24,195 | columnas: 76
+
+--- Grupos del clustering exploratorio ---
+CLUSTER_EXPLORATORIO
+0    13377
+1    10818
+
+--- Perfil numerico por cluster (medianas) ---
+cluster                           0         1
+variable                                     
+EDAD                          12.00     12.00
+MIN_PROP_PUBLICOS              0.62      1.00
+MIN_RATIO_ALUMNOS_DOCENTE     17.55     12.84
+SUM_GASHOG2D               40267.64  19789.27
+SUM_INGHOG2D               47991.12  21106.07
+
+--- Distribuciones completas de dos variables candidatas ---
+
+EDU_P306, porcentaje DENTRO DE CADA CLUSTER:
+cluster                     0      1
+codigo_sin_interpretar              
+1                       85.73  81.44
+2                       12.47  15.46
+SIN_DATO                 1.80   3.11
+
+EDU_P314A, porcentaje DENTRO DE CADA CLUSTER:
+cluster                     0      1
+codigo_sin_interpretar              
+1                       82.49  56.78
+2                       15.71  40.12
+SIN_DATO                 1.80   3.11
+
+--- Candidatas a variable objetivo (CODIGOS SIN SIGNIFICADO ASIGNADO) ---
+
+EDU_P306 | valores y frecuencias:
+  Codigo 1: 20,278 (83.81%)
+  Codigo 2: 3,340 (13.80%)
+  Codigo SIN_DATO: 577 (2.38%)
+  Registros con respuesta: 23,618
+  Codigos distintos con respuesta: 2
+
+EDU_P314A | valores y frecuencias:
+  Codigo 1: 17,177 (70.99%)
+  Codigo 2: 6,441 (26.62%)
+  Codigo SIN_DATO: 577 (2.38%)
+  Registros con respuesta: 23,618
+  Codigos distintos con respuesta: 2
+
+Cruce de codigos P306 vs P314A (conteos, sin interpretar):
+P314A_CODIGO      1     2  SIN_DATO
+P306_CODIGO                        
+1             14904  5374         0
+2              2273  1067         0
+SIN_DATO          0     0       577
+
+--- Recomendaciones metodologicas ---
+1) NO asignar significados a codigos 1/2 hasta leer los cuestionarios ENAHO.
+2) Los perfiles de clustering son descriptivos; no prueban causalidad.
+3) Para clasificacion: no usar CLUSTER_EXPLORATORIO como predictor.
+4) No usar como X variables que definen Y o son consecuencia de Y.
+5) Validar entrenamiento/prueba por CONGLOME; ajustar transformaciones solo en train.
+6) No declarar resultados representativos de la poblacion sin pesos y diseno muestral.
+
+Archivos generados:
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clustering\distribucion_categorias_por_cluster_2025.csv
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clustering\resumen_numerico_clusters_2025.csv
+  D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\clustering\cruce_p306_p314a_2025.csv

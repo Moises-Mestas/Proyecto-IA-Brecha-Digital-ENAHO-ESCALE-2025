@@ -1,0 +1,94 @@
+
+========== 100 Vivienda ==========
+Codificación detectada (muestra): utf-8-sig
+Variables 2025 presentes (8/8): ['AÑO_25', 'CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'UBIGEO_25', 'ESTRATO_25', 'P1121_25', 'P1144_25']
+Variables 2025 faltantes: []
+Filas inspeccionadas (SOLO muestra inicial): 2000
+Valores observados en AÑO_25: {'(vacío)': 2000}
+Filas con AÑO_25 = 2025 en la muestra: 0
+Variables no vacías entre filas 2025 de la muestra:
+  AÑO_25: 0/0
+  CONGLOME_25: 0/0
+  VIVIENDA_25: 0/0
+  HOGAR_25: 0/0
+  UBIGEO_25: 0/0
+  ESTRATO_25: 0/0
+  P1121_25: 0/0
+  P1144_25: 0/0
+Duplicados de llave ['CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25'] en muestra 2025 (valores completos): 0
+Ejemplos de valores (sin códigos de identificación):
+  ESTRATO_25: []
+  P1121_25: []
+  P1144_25: []
+
+========== 200 Personas ==========
+Codificación detectada (muestra): utf-8-sig
+Variables 2025 presentes (7/7): ['AÑO_25', 'CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'CODPERSO_25', 'P207_25', 'P208A_25']
+Variables 2025 faltantes: []
+Filas inspeccionadas (SOLO muestra inicial): 2000
+Valores observados en AÑO_25: {'(vacío)': 2000}
+Filas con AÑO_25 = 2025 en la muestra: 0
+Variables no vacías entre filas 2025 de la muestra:
+  AÑO_25: 0/0
+  CONGLOME_25: 0/0
+  VIVIENDA_25: 0/0
+  HOGAR_25: 0/0
+  CODPERSO_25: 0/0
+  P207_25: 0/0
+  P208A_25: 0/0
+Duplicados de llave ['CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'CODPERSO_25'] en muestra 2025 (valores completos): 0
+Ejemplos de valores (sin códigos de identificación):
+  P207_25: []
+  P208A_25: []
+
+========== 300 Educación ==========
+Codificación detectada (muestra): utf-8-sig
+Variables 2025 presentes (11/11): ['AÑO_25', 'CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'CODPERSO_25', 'P300A_25', 'P306_25', 'P307_25', 'P308A_25', 'P308B_25', 'P314A_25']
+Variables 2025 faltantes: []
+Filas inspeccionadas (SOLO muestra inicial): 2000
+Valores observados en AÑO_25: {'(vacío)': 2000}
+Filas con AÑO_25 = 2025 en la muestra: 0
+Variables no vacías entre filas 2025 de la muestra:
+  AÑO_25: 0/0
+  CONGLOME_25: 0/0
+  VIVIENDA_25: 0/0
+  HOGAR_25: 0/0
+  CODPERSO_25: 0/0
+  P300A_25: 0/0
+  P306_25: 0/0
+  P307_25: 0/0
+  P308A_25: 0/0
+  P308B_25: 0/0
+  P314A_25: 0/0
+Duplicados de llave ['CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'CODPERSO_25'] en muestra 2025 (valores completos): 0
+Ejemplos de valores (sin códigos de identificación):
+  P300A_25: []
+  P306_25: []
+  P307_25: []
+  P308A_25: []
+  P308B_25: []
+  P314A_25: []
+
+========== SUMARIA Hogar ==========
+Codificación detectada (muestra): utf-8-sig
+Variables 2025 presentes (9/9): ['AÑO_25', 'CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25', 'UBIGEO_25', 'POBREZA_25', 'INGHOG2D_25', 'GASHOG2D_25', 'FACTOR07_25']
+Variables 2025 faltantes: []
+Filas inspeccionadas (SOLO muestra inicial): 2000
+Valores observados en AÑO_25: {'(vacío)': 2000}
+Filas con AÑO_25 = 2025 en la muestra: 0
+Variables no vacías entre filas 2025 de la muestra:
+  AÑO_25: 0/0
+  CONGLOME_25: 0/0
+  VIVIENDA_25: 0/0
+  HOGAR_25: 0/0
+  UBIGEO_25: 0/0
+  POBREZA_25: 0/0
+  INGHOG2D_25: 0/0
+  GASHOG2D_25: 0/0
+  FACTOR07_25: 0/0
+Duplicados de llave ['CONGLOME_25', 'VIVIENDA_25', 'HOGAR_25'] en muestra 2025 (valores completos): 0
+Ejemplos de valores (sin códigos de identificación):
+  POBREZA_25: []
+  INGHOG2D_25: []
+  GASHOG2D_25: []
+  FACTOR07_25: []

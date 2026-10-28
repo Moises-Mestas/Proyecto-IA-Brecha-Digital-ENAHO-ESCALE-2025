@@ -1,0 +1,38 @@
+EXAMEN ENAHO-ESCALE 2025 | PASO 19 | MODELO EDUCACION + INTERNET
+NUEVO EXPERIMENTO C: P306=1 (matriculados), P307=1 (asisten), P314A=2 (NO uso internet).
+Mide NO USO RECIENTE ENTRE ASISTENTES, no competencia digital ni rendimiento.
+Se utilizan SOLO los archivos locales entregados por el docente.
+Universo C: 17,992 | positivos no uso 4,614 (25.64%).
+Train 13,557 | Test 4,435 | conglomerados compartidos 0.
+Grupos train=3,087, test=1,029.
+GroupKFold 3 folds dentro de train; preprocesamiento ajustado en cada fold.
+Busquedas XGB de hiperparametros: 20; mejor AP interno 0.656424.
+IMPORTANTE: la comparacion CV de hiperparametros ya explorados es optimista; test independiente sirve de evaluacion.
+Clase: pesos calculados en cada entrenamiento/fold; FACTOR07 solo como sensibilidad, no inferencia nacional.
+
+RESULTADOS CV AGRUPADA - TRAIN:
+  XGBoost_optimizado_sin_pesos: AP=0.6564 ROC=0.8338 F1m=0.7099 Recall=0.4537 Precision=0.6854
+  XGBoost_sin_pesos: AP=0.6560 ROC=0.8337 F1m=0.7109 Recall=0.4635 Precision=0.6739
+  XGBoost_optimizado_con_pesos: AP=0.6553 ROC=0.8335 F1m=0.7136 Recall=0.7653 Precision=0.5123
+  XGBoost_con_pesos_clase: AP=0.6546 ROC=0.8330 F1m=0.7169 Recall=0.7617 Precision=0.5178
+  HistGB_sin_pesos: AP=0.6539 ROC=0.8315 F1m=0.7106 Recall=0.4643 Precision=0.6729
+  HistGB_con_pesos_clase: AP=0.6537 ROC=0.8302 F1m=0.7134 Recall=0.7528 Precision=0.5144
+  MLP_Red_Neuronal: AP=0.6531 ROC=0.8324 F1m=0.7094 Recall=0.4627 Precision=0.6690
+  Regresion_Logistica_BASE: AP=0.6446 ROC=0.8315 F1m=0.7140 Recall=0.7707 Precision=0.5118
+  Random_Forest_pesos_clase: AP=0.6444 ROC=0.8266 F1m=0.7190 Recall=0.7322 Precision=0.5275
+  XGBoost_factor_sensibilidad: AP=0.6435 ROC=0.8268 F1m=0.7135 Recall=0.7515 Precision=0.5146
+
+GANADOR CV: XGBoost_optimizado_sin_pesos
+TEST FINAL (evaluado solamente para el ganador):
+  ap: 0.642149
+  roc_auc: 0.836595
+  f1_macro: 0.701662
+  balanced_accuracy: 0.681267
+  accuracy: 0.807215
+  recall_no_uso: 0.435305
+  precision_no_uso: 0.658741
+Matriz confusion [real0,real1 x pred0,pred1]: [[3109, 244], [611, 471]]
+Parametros XGB optimizados: {"modelo__subsample": 0.9, "modelo__reg_lambda": 3.0, "modelo__n_estimators": 230, "modelo__min_child_weight": 2, "modelo__max_depth": 3, "modelo__learning_rate": 0.025, "modelo__colsample_bytree": 0.8}
+SHAP: SI; escala log-odds, n 242
+No se modifica ningun archivo ni modelo de pasos anteriores.
+Precaucion: panel proporcionado corte 2025; no estimacion representativa sin diseno complejo.

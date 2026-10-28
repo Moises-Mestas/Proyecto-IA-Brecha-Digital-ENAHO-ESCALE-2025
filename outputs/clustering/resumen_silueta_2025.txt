@@ -1,0 +1,8 @@
+GRAFICO DE SILUETA - EVIDENCIA COMPLEMENTARIA DEL EXAMEN
+Filas originales: 24195
+Muestra sin reemplazo, semilla 42: 1200
+Coeficiente promedio calculado sobre la muestra: 0.210649
+AVISO: este valor puede diferir de 0.2179 del reporte 09
+porque se recalcula con otra muestra y sus distancias internas.
+La figura es descriptiva; no es prueba de causalidad.
+Figura: D:\2026 -2 UPEU\Angel\examen 3\PROYECTO_IA_ENAHO_ESCALE_2025\outputs\figures\clustering_silueta_2025.png
