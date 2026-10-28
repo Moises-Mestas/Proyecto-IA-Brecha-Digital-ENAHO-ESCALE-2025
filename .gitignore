@@ -1,4 +1,4 @@
-# Entorno y archivos temporales
+# ===== Entorno local y archivos temporales (no entregar) =====
 .venv/
 venv/
 __pycache__/
@@ -8,17 +8,17 @@ __pycache__/
 .mypy_cache/
 .env
 .env.*
-*.log
 .DS_Store
 Thumbs.db
+~$*
+*.tmp
 
-# Microdatos ENAHO/MINEDU: no publicarlos en GitHub
-# (se mantienen localmente para reproducir el examen)
-data/raw/
-data/interim/
-data/processed/
+# ===== Salidas auxiliares del experimento =====
+# Solo TXT/LOG dentro de outputs; requirements.txt y documentación NO se ignoran.
+outputs/**/*.txt
+outputs/**/*.log
 
-# Resultados que pueden incluir datos a nivel de estudiante o dependencias binarias
+# ===== Archivos binarios regenerables y predicciones individuales =====
 outputs/models/
 *.joblib
 outputs/clasificacion/predicciones_test_sin_identificadores.csv
@@ -27,11 +27,10 @@ outputs/indice_brecha_2025/cierre20_test_sin_ids.csv
 **/*predicciones_test*.csv
 **/*test_sin_ids.csv
 
-# Copias de seguridad, ZIP y entregables empaquetados de uso local
+# ===== Archivos locales de respaldo =====
 archive_local/
 backup_local/
-*.zip
 
-# Documentos personales/temporales fuera de reports/ cuando existan
-~$*
-*.tmp
+# IMPORTANTE: NO se ignoran data/raw, data/interim, data/processed.
+# Los ZIP del docente y el dataset maestro se incluyen SI su redistribucion
+# esta permitida y cada archivo cumple el limite de tamano de GitHub.
