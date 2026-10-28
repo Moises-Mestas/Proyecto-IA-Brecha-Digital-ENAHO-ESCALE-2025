@@ -11,7 +11,7 @@
 
 | Requisito de evaluación | Evidencia principal |
 |---|---|
-| **Informe científico de 6 páginas, con EDA** | [Abrir PDF definitivo](reports/Informe_Final_IA_ENAHO_ESCALE_2025_CON_EDA.pdf) |
+| **Informe científico de 6 páginas, con EDA** | [Abrir PDF definitivo](reports/INFORME_DEFINITIVO_IA_2025.pdf) |
 | **1. Datos originales** | [`data/raw/inei/`](data/raw/inei/) y [`data/raw/minedu/`](data/raw/minedu/) |
 | **2. EDA sobre archivos raw** | [Código EDA](src/24_eda_raw_2025.py) · [Estadísticas](outputs/eda_raw_2025/eda_estadisticas_numericas_raw_2025.csv) · [Faltantes](outputs/eda_raw_2025/eda_faltantes_raw_2025.csv) · [Figura de edades](outputs/figures/eda_raw_edades_6_17_2025.png) |
 | **3. Preprocesamiento e integración** | [Limpieza](src/05_limpiar_enaho_2025.py) · [Unión ENAHO](src/06_integrar_enaho_2025.py) · [Integración MINEDU CORREGIDA](src/07_integrar_minedu_escale_2025_CORREGIDO.py) |
@@ -112,7 +112,7 @@ python src/20_indice_brecha_educativa_digital_2025.py --iteraciones 20
 
 **Prevención de fuga de datos:** separación de entrenamiento y prueba por `CONGLOME` y `GroupKFold` sobre entrenamiento, con imputación, escalado y codificación ajustados únicamente en cada fold. Semilla aleatoria fija: `42`.
 
-**PDF final:** [Informe científico ENAHO–ESCALE 2025](reports/Informe_Final_IA_ENAHO_ESCALE_2025_CON_EDA.pdf). El PDF incorpora el EDA y los resultados; la maquetación final se hizo como documento y no se regenera idénticamente con una sola orden del pipeline.
+**PDF final:** [Informe científico ENAHO–ESCALE 2025](reports/INFORME_DEFINITIVO_IA_2025.pdf). El PDF incorpora el EDA y los resultados; la maquetación final se hizo como documento y no se regenera idénticamente con una sola orden del pipeline.
 
 ## Límites e interpretación
 
